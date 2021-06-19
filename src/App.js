@@ -16,10 +16,10 @@ function App() {
       <Header />
       <Navbar />
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/aboutus" exact component={AboutUs} />
-        <Route path="/service" exact component={Service} />
-        <Route path="/contact" exact component={Contact} />
+        <Route path="/Ngotest" exact component={Home} />
+        <Route path="/Ngotest/aboutus" exact component={AboutUs} />
+        <Route path="/Ngotest/service" exact component={Service} />
+        <Route path="/Ngotest/contact" exact component={Contact} />
       </Switch>
     </BrowserRouter>
   );
