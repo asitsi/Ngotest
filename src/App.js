@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollRoute />
-      <Header />
+      
       <Navbar />
       <Switch>
         <Route path="/Ngotest/" exact component={Home} />
