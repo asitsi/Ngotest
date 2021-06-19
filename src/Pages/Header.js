@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import image from "/Imgs/logo.png"
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <HeaderImg>
         <div>
           <img
-            src="/Imgs/logo.png"
+            src={image}
             alt=""
             className="img-fluid"
           />
