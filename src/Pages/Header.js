@@ -7,7 +7,7 @@ const Header = () => {
       <HeaderImg>
         <div>
           <img
-            src="http://endeavour.org.in/resource/logo.gif"
+            src="https://corporatebytes.in/wp-content/uploads/2016/11/logo-logo1.jpg"
             alt=""
             className="img-fluid"
           />
