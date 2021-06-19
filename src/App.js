@@ -3,7 +3,6 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar/Navbar";
 import ScrollRoute from "./ScrollRoute";
-import Header from "./Pages/Header";
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import Service from "./Pages/Service";
@@ -13,7 +12,6 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollRoute />
-      
       <Navbar />
       <Switch>
         <Route path="/Ngotest/" exact component={Home} />
